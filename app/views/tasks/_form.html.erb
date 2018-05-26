@@ -6,10 +6,10 @@
     <div id="error_explanation">
       <ul>
         
-<% Task.errors.full_Tasks.each do |task| %>
+<% @task.errors.full_messages.each do |task| %>
 
           <li>
-<%= Task %>
+<%= @task %>
 </li>
         
 <% end %>
